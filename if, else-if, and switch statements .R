@@ -137,7 +137,8 @@ for (i in seq_along(species)) {
   animal_ages[i] <- animal_age
 }
 
-# Calculate the mean value of each column in a data frame mean_mtcars <- vector(mode = "numeric", length = ncol(mtcars))
+# Calculate the mean value of each column in a data frame
+mean_mtcars <- vector(mode = "numeric", length = ncol(mtcars))
 
 for (i in 1:ncol(mtcars)) {
   mean_val <- mean(mtcars[[i]], na.rm = TRUE)
